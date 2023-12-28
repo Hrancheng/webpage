@@ -50,3 +50,36 @@ footer {
 footer p {
     font-size: 0.8em;
 }
+
+* Projects Section Styling */
+#projects {
+    margin: 2em 0;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
