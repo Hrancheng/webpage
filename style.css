@@ -17,12 +17,13 @@ header {
 }
 
 nav ul {
-    list-style: none; /* Remove the default bullet points */
-    padding: 0; /* Remove any default padding */
+    list-style: none;
+    text-align: center;
 }
 
-nav li {
-    margin-bottom: 10px; /* Add spacing between each list item vertically */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
